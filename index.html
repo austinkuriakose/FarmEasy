@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS Link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/7bb0a26204.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- User CSS Stylesheet-->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Icon & Title -->
+  <link rel="icon" href="images/iconic.ico">
+  <title>FarmEasy</title>
+
+</head>
+
+<body>
+
+  <section class="coloured-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">FarmEasy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cta">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-7">
+          <h1 class="big-heading">Effective Techniques for Efficient Yields</h1>
+        </div>
+        <div class="col-lg-5">
+          <a href="https://farmeasy.simplybook.me/v2/#book/location/1/count/1/" class="btn btn-success btn-block download-button" role="button">Book an appointment today!</a>
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="services">
+    <h2 class="section-heading">Our Services</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="service-row col-lg-4 col-md-6">
+          <a href="#fieldSurveyModal" data-toggle="modal" data-target="#fieldSurveyModal">
+            <img class="service-icon" alt="survey-image" src="images/survey.jpg">
+            <h3 class="service-title">Field Survey</h3>
+            <p>A general survey of your field to analyze it's current situation</p>
+          </a>
+        </div>
+        <div class="service-row col-lg-4 col-md-6">
+          <a href="#irrigationSystemModal" data-toggle="modal" data-target="#irrigationSystemModal">
+            <img class="service-icon" alt="irrigation-image" src="images/irrigation.jpg">
+            <h3 class="service-title">Irrigation System</h3>
+            <p>Installation of automated sprinklers with humidity sensors</p>
+          </a>
+        </div>
+        <div class="service-row col-lg-4 col-md-6">
+          <a href="#diseaseDetectionModal" data-toggle="modal" data-target="#diseaseDetectionModal">
+            <img class="service-icon" alt="manure-image" src="images/manure.jpg">
+            <h3 class="service-title">Disease Detection</h3>
+            <p>Identifying possible crop diseases predicted by our trained ML Model</p>
+          </a>
+        </div>
+        <div class="service-row col-lg-6 col-md-6">
+          <a href="#fireDetectionModal" data-toggle="modal" data-target="#fireDetectionModal">
+            <img class="service-icon" alt="fire-image" src="images/fire.jpg">
+            <h3 class="service-title">Fire Detection</h3>
+            <p>Fire detection system in the field through sensors to alert farmer and avoid loss of crops</p>
+          </a>
+        </div>
+        <div class="service-row col-lg-6">
+          <a href="#completeKitModal" data-toggle="modal" data-target="#completeKitModal">
+            <img class="service-icon" alt="sensor-image" src="images/sensor.jpg">
+            <h3 class="service-title">Complete Sensor Kit</h3>
+            <p>Installation of multiple sensors to protect & provide all the above services at once</p>
+          </a>
+        </div>
+      </div>
+
+      <!-- Modals -->
+
+      <!-- Field-Survey-Modal -->
+      <div class="modal fade" id="fieldSurveyModal">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Field Survey</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+              <img src="images/farm-survey.jpg" class="modal-image" alt="fieldSurveyImage">
+              <p class="p-modal">This is a general survey of the field to find out its basic information by using our patented kit.<br>An agent is sent to check your entire field with this kit to identify the concentrations of minerals and other nutrients in the soil.<br>The agent then gives information about how to increase the yield of the field by prescribing medicines and our Organic Manure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Irrigation-System-Modal -->
+      <div class="modal fade" id="irrigationSystemModal">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Smart Irrigation Systems</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+              <img src="images/irrigation-system.jpg" class="modal-image" alt="image">
+              <p class="p-modal">Irrigation systems of sprinklers are installed as per the requirement to make sure that the field remains well- watered.<br>Sensors will be spread across the field to detect the lack of moisture in different places. <br> These sensors will then automatically activate the sprinklers in the area where irrigation is required. <br>Therefore, it reduces wastage of water and manual labour</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Disease-Detection-Modal -->
+      <div class="modal fade" id="diseaseDetectionModal">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Disease Detection</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+              <img src="images/crop-disease1.jpg" class="modal-image" alt="image">
+              <p class="p-modal">If the farmer observes some disease in the crops or low yield, the agent can be called who will be able to identify the disease and suggest the medication required to overcome it quickly. <br>This will enable the farmer to quickly provide the necessary treatment for the crops to avoid loss of yield.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fire-Detection-Modal -->
+      <div class="modal fade" id="fireDetectionModal">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Fire Detection Kit</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+              <img src="images/fire-image.jpg" class="modal-image" alt="image">
+              <p class="p-modal">To prevent any loss from accidental fires, multiple fire sensors will be installed at various locations spread across the field.<br>These sensors will then trigger an alarm, alerting the farmer by call and message, while also activating any sprinklers in the area, if installed.<br>This will help in avoiding any loss of crop due to fire damage.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Complete-Kit-Modal -->
+      <div class="modal fade" id="completeKitModal">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Complete Sensor Protection Kit</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+              <img src="images/electronics.jpg" class="modal-image" alt="image">
+              <p class="p-modal">Agent provides a combination of all services for the field to make it smart and organic.<br>Following services are provided in this plan:
+                <ul class="ul-modal">
+                  <li>4 field surveys</li>
+                  <li>2 disease detections</li>
+                  <li>Smart irrigation system</li>
+                  <li>Fire detection system</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <!-- About -->
+
+  <section class="coloured-section" id="about">
+
+    <div id="about-carousel" class="carousel slide" data-ride="carousel" data-pause="hover">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h6 class="about-text">Our dedicated team is always ready to assist you by installing specific technological packages to decrease the chances of crop-loss and to increase the overall yield of your fields.<br>Our aim is to save your time and
+            effort by reducing cumbersome tasks through automation and to fulfill all the basic requirements of your field.</h6>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="about-image" src="images/chicken.jpg" alt="chicken-image">
+          <h6 class="about-text">Our manure treatment involves tried and tested Organic manure made from a calculated mixture of Poultry Litter and other natural substances like sawdust to increase soil fertility.</h6>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="about-image" src="images/carousel-sensor.jpg" alt="sensor-on-soil">
+          <h6 class="about-text">Special sensors detect the approximate quantity of certain minerals in the soil to enable the farmer to better understand the situation of the field and to instruct them about specific measures that can increase crop
+            yield.</h6>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="about-image" src="images/stray.jpg" alt="stray-animals">
+          <h6 class="about-text">Motion detectors can be used to detect the presence of stray animals in the field. When triggered, automated sirens drive out such animals and certain insects by blaring high-frequency emissions inaudible to human
+            ears.</h6>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#about-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#about-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+  </section>
+
+
+    <!-- Pricing -->
+
+    <section class="white-section" id="pricing">
+
+      <h2 class="section-heading">Pricing Plans for Every Requirement</h2>
+      <p>Simple and affordable price plans for our agent to visit your field.</p>
+
+      <div class="card-deck">
+        <div class="row">
+
+          <div class="pricing-column col-xl-4 col-md-6">
+            <div class="card">
+              <div class="card-header card-top">
+                <h3>Field Survey</h3>
+              </div>
+              <div class="card-body">
+                <h2 class="price-text">Free</h2>
+                <p>3 hours</p>
+                <p>Agent checks the field's mineral concentration using our patented kit and provides detailed summary</p>
+                <p>Advises about appropriate measures required to increase yield</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing-column col-xl-4 col-md-6">
+            <div class="card">
+              <div class="card-header card-top">
+                <h3>Irrigation System</h3>
+              </div>
+              <div class="card-body">
+                <h2 class="price-text">₹2000+</h2>
+                <p>After the agent surveys the land and determines the number of sprinklers required</p>
+                <p>Installation of sprinklers and moisture sensors are done</p>
+                <p>Results in automatic irrigation of those parts with low humidity level readings</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing-column col-xl-4 col-md-6">
+            <div class="card">
+              <div class="card-header card-top">
+                <h3>Disease Detection</h3>
+              </div>
+              <div class="card-body">
+                <h2 class="price-text">Free</h2>
+                <p>Agent is called when disease is observed in the field</p>
+                <p>He checks the crops and identifies the disease and informs the farmer.</p>
+                <p>He then prescribes the medicines required for solving the problem.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing-column col-xl-6 col-md-6">
+            <div class="card">
+              <div class="card-header card-top">
+                <h3>Fire Detection</h3>
+              </div>
+              <div class="card-body">
+                <h2 class="price-text">₹1500+</h2>
+                <p>Fire detectors which alert the farmer and trigger the water sprinkler system</p>
+                <p>Thermal sensors which identify the presence of stray animals and trigger sirens & ultrasonic devices to drive them away</p>
+                <p>Reduces manual labour</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing-column col-xl-6">
+            <div class="card">
+              <div class="card-header card-top">
+                <h3>Complete Protection Kit</h3>
+              </div>
+              <div class="card-body">
+                <h2 class="price-text">₹3000+</h2>
+                <p>Fire detectors which alert the farmer and trigger the water sprinkler system</p>
+                <p>Thermal sensors which identify the presence of stray animals and trigger sirens & ultrasonic devices to drive them away</p>
+                <p>Reduces manual labour</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </section>
+
+
+    <!-- Call to Action -->
+
+    <section class="coloured-section" id="cta">
+      <div class="container-fluid">
+        <h4 class="section-heading">Contact us for any queries</h4>
+        <h4>+91 77771960785<br>+91 7771802560</h4>
+        <a href="https://farmeasy.simplybook.me/v2/#book/location/1/count/1/" role="button" class="btn btn-outline-light btn-lg">Book Now</a>
+      </div>
+
+
+    </section>
+
+
+<!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="footer-icon fab fa-twitter"></i>
+      <i class="footer-icon fab fa-facebook-f"></i>
+      <i class="footer-icon fab fa-instagram"></i>
+      <i class="footer-icon fas fa-envelope"></i>
+      <p class="copyright">© Copyright 2020 Alpha</p>
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>

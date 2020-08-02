@@ -1,0 +1,207 @@
+/* HTML Elements */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p, ul {
+  color: #8f8f8f;
+}
+
+/* ------------------------------------------------------------------ */
+/* Sections */
+
+.coloured-section {
+  background-color: #79d70f;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #f0f5f9;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* ------------------------------------------------------------------ */
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* ------------------------------------------------------------------ */
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* -------------------------------------------------------------- */
+/* Download Buttons */
+
+.download-button {
+  margin: 20% auto;
+  padding: 3%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* ------------------------------------------------------------------ */
+/* Title Section */
+
+#title {
+  background: url('../images/farm1.jpg') no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* ------------------------------------------------------------------ */
+/* Services */
+
+#services {
+  padding: 5%;
+  position: relative;
+}
+
+.service-row {
+  padding: 3%;
+}
+
+.service-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.service-icon {
+  margin: 2% auto;
+  height: 180px;
+  width: 240px;
+  border-radius: 12%;
+}
+
+.modal-image {
+  margin: 2%;
+  height: 10%;
+  width: 20%;
+  float:left;
+  border-radius: 5%;
+}
+
+.p-modal {
+  margin: 2.5% 20% 0 26%;
+  text-align: left;
+}
+
+.ul-modal {
+  margin: 0 20% 3% 26%;
+  text-align: left;
+}
+
+
+#services a{
+  text-decoration: none;
+  color: #000;
+}
+
+#services .container-fluid {
+  padding: 3% 5%;
+}
+
+/* ------------------------------------------------------------------ */
+/* About Section */
+
+#about {
+  background-color: #79d70f;
+}
+
+.active.carousel-item {
+  text-align: center;
+}
+
+.about-text{
+  font-size: 1.75rem;
+  font-weight: normal;
+  line-height: 1.7;
+  text-align: left;
+  }
+
+.about-image {
+  border-radius: 90%;
+  margin: 20px;
+  width: 40%;
+  float: right;
+}
+
+/* ------------------------------------------------------------------ */
+/* Pricing */
+#pricing {
+  padding: 80px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 1%;
+}
+
+.card-top {
+  background-color: #e8e4e1;
+}
+
+/* ------------------------------------------------------------------ */
+/* Call to Action & Footer */
+
+.footer-icon {
+  margin: 0.75%;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  padding: 20px 0;
+}
